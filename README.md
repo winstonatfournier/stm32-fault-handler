@@ -11,4 +11,7 @@ These drivers replicate and adapt several modules originally developed for the C
 - source_decay(): Identifies long-term deterioration in solar cell or battery performance. Used to adjust fault tolerance thresholds in other drivers and subsystems.
 - pwr_mon_read_error(): Periodically verifies the health of the Power Monitor by checking for consistent readout behavior.
 
+> This repository includes a selection of fault-handling drivers.
+> Additional firmware modules were developed during the same project period but are not included here.
+
 > Development period: May-September 2024
