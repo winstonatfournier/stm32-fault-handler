@@ -14,7 +14,7 @@
 
 #include <stdint.h>
 
-extern uint8_t g_source_decay; //global variable, flags whether or not 'source_decay' fault has occured
+extern uint8_t g_source_decay; //Global flag for occurence of 'source_decay' fault
 
 
 /************** FUNCTION DEFS **************/

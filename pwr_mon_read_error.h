@@ -25,7 +25,7 @@ extern uint8_t g_read_error; //Flag for recent failure to read device
   *
   * @param None
   *
-  * @retval 0 or -1, reflecting whether or not the operation has succeeded
+  * @retval 0 or -1, reflecting whether or not the operation has been successful
 */
 int8_t temp_check();
 
@@ -34,7 +34,7 @@ int8_t temp_check();
   *
   * @param None
   *
-  * @retval 0 or -1, reflecting whether or not the operation has succeeded
+  * @retval 0 or -1, reflecting whether or not the operation has been successful
 */
 int8_t volt_check();
 
@@ -43,7 +43,7 @@ int8_t volt_check();
   *
   * @param None
   *
-  * @retval 0 or -1, reflecting whether or not the operation has succeeded
+  * @retval 0 or -1, reflecting whether or not the operation has been successful
 */
 int8_t current_check();
 
@@ -52,7 +52,7 @@ int8_t current_check();
   *
   * @param None
   *
-  * @retval 0 or -1, reflecting whether or not the operation has succeeded
+  * @retval 0 or -1, reflecting whether or not the operation has been successful
 */
 int8_t power_check();
 
@@ -61,7 +61,7 @@ int8_t power_check();
   *
   * @param None
   *
-  * @retval 0 or -1, reflecting whether or not the operation has succeeded
+  * @retval 0 or -1, reflecting whether or not the operation has been successful
 */
 int8_t follow_up_read();
 
@@ -70,7 +70,7 @@ int8_t follow_up_read();
   *
   * @param None
   *
-  * @retval 0 or -1, reflecting whether or not the operation has succeeded
+  * @retval 0 or -1, reflecting whether or not the operation has been successful
 */
 int8_t daily_read();
 

@@ -16,7 +16,7 @@
 #include "source_decay.h"
 
 static uint16_t pass_num = 0; //Main loop iteration counter regularly prompting system checks
-static uint8_t consecutive_idles = 0; //Bitfield tracking recent MPPT idles; 0xFF means persistent idle (~4h)
+static uint8_t consecutive_idles = 0; //Bitfield tracking recent MPPT idles; 0xFF means persistent idle
 static uint8_t mppt_was_reset = FALSE; //Flag for recent MPPT resets by 'handle_chronic_idle'
 static const float DAYLIGHT_TEMP_LIM = 50; //Tentative sunlight exposure threshold
 static const float DAYLIGHT_VOLT_LIM = 0; //Tentative sunlight exposure threshold

@@ -13,8 +13,8 @@
 #include "chronic_idle.h"
 #include "pwr_mon_read_error.h"
 
-#define MAXIMUM_EXPECTED_CURRENT 32768 //temporary placeholder; unspecified on data sheet
-#define MONTHS_LOG_SZ 128 //tentative size of log of monthly rolling averages
+#define MAXIMUM_EXPECTED_CURRENT 32768 //Placeholder: unspecified on data sheet
+#define MONTHS_LOG_SZ 128 //Tentative size of log of monthly rolling averages
 
 static uint16_t pass_num = 0; //counter tracking iterations of the while loop, gets reset when 'pass_num == g_const_PASS_REQ'
 static float minutes_roll_avg = 0; //rolling average of power readings over an hour

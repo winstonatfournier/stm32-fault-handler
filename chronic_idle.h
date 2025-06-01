@@ -48,7 +48,7 @@ float convert_raw_to_celsius(int16_t raw_temp_val);
 
 /**
   * @brief compares detected temperature with established threshold to deduct if system is receiving adequate sun exposure,
-  * indicating that charging should be occuring
+  * suggesting that charging should be occuring
   * 
   * @param None
   *

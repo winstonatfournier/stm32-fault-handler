@@ -17,7 +17,7 @@
 static uint64_t pass_num = 0; //Main loop iteration counter periodically prompting device checks
 static uint32_t delay_counter = 0; //Delay counter following a failure to read device
 static uint8_t last_test_failed = FALSE; //Flag result for the last daily pwr_mon_read_error check
-static const uint32_t read_error_delay = g_const_PASS_REQ*60; //Software loop based delay equivalent to 1 hour
+static const uint32_t read_error_delay = g_const_PASS_REQ*60; //Software loop based delay equivalent to ~1 hour
 static const uint16_t read_error_pass_constant = 60*24; //Minutes per day
 uint8_t g_read_error = 0; //Flag for recent failure to read device
 
