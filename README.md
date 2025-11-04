@@ -1,18 +1,18 @@
-# stm32-fault-handler
+# 🛰️ stm32-fault-handler
 
-Firmware fault detection and recovery handlers for STM32 microcontrollers.
+Firmware fault detection and recovery routines for STM32 microcontrollers.
 
-These drivers replicate and adapt several modules originally developed for the CubeSat Electrical Power System (EPS) of the University of Toronto Aerospace Team (UTAT). They implement diagnostic logic to detect and handle various failure conditions.
+Adapted from modules developed for the CubeSat Electrical Power System (EPS) of the University of Toronto Aerospace Team (UTAT). Implements diagnostic logic for runtime fault monitoring and recovery.
 
 
 ## Implemented Fault Cases
 
-- chronic_idle(): Detects persistent idling of the MPPT device, especially in charging conditions where activity is expected.
-- source_decay(): Identifies long-term deterioration in solar cell or battery performance. Used to adjust fault tolerance thresholds in other drivers and subsystems.
-- pwr_mon_read_error(): Periodically verifies the health of the Power Monitor by checking for consistent readout behavior.
+- chronic_idle(): Detects persistent idling of the MPPT under expected charge conditions.
+- source_decay(): Flags long-term degradation in solar or battery input; adjusts tolerance thresholds.
+- pwr_mon_read_error(): Validates power-monitor readout consistency to ensure sensor health.
 
 
-> This repository includes a selection of fault-handling drivers.
-> Additional firmware modules were developed during the same project period but are not included here.
+> Includes selected fault-handling drivers developed May-Sep 2024.
+> Built under STM32CubeIDE using HAL-based drivers.
 
-> Development period: May-September 2024
+![Fault cases featured risk assessment and consultation with documentation. Examples.](sample.png)
