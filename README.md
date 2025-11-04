@@ -15,4 +15,6 @@ Adapted from modules developed for the CubeSat Electrical Power System (EPS) of 
 > Includes selected fault-handling drivers developed May-Sep 2024.
 > Built under STM32CubeIDE using HAL-based drivers.
 
-![Fault cases featured risk assessment and consultation with documentation. Examples.](sample.png)
+![Fault cases include documented risk assessment and reference consultation.](sample.png)
+
+Fault cases include documented risk assessment and reference consultation. Examples above.
